@@ -99,6 +99,9 @@
 		226DF91625342BAD001D1A51 /* ProgressManagement */ = {
 			isa = PBXGroup;
 			children = (
+				226DF94F25343742001D1A51 /* Controller */,
+				226DF94E2534373C001D1A51 /* View */,
+				226DF94D2534372D001D1A51 /* Model */,
 				226DF91725342BAD001D1A51 /* AppDelegate.swift */,
 				226DF91925342BAD001D1A51 /* SceneDelegate.swift */,
 				226DF91B25342BAD001D1A51 /* ViewController.swift */,
@@ -126,6 +129,27 @@
 				226DF93B25342BB0001D1A51 /* Info.plist */,
 			);
 			path = ProgressManagementUITests;
+			sourceTree = "<group>";
+		};
+		226DF94D2534372D001D1A51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		226DF94E2534373C001D1A51 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		226DF94F25343742001D1A51 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -439,6 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M96BT4VC95;
 				INFOPLIST_FILE = ProgressManagement/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,7 +471,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.matsu.ProgressManagement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -458,6 +483,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M96BT4VC95;
 				INFOPLIST_FILE = ProgressManagement/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,7 +491,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.matsu.ProgressManagement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
