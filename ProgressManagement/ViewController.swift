@@ -8,10 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        //TopView
+        let managementListViewController = ManagementListViewController()
+        let navi = UINavigationController(rootViewController: managementListViewController)
+        navi.modalPresentationStyle = .fullScreen
+        self.present(navi, animated: false, completion: nil)
     }
 
 
